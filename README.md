@@ -274,18 +274,28 @@ graph TD
 Jika kamu membangun sesuatu yang benar-benar merupakan ekspresi dari siapa dirimu, **tidak ada yang bisa bersaing denganmu** — karena tidak ada orang lain yang bisa menjadi kamu.
 
 ```mermaid
-quadrantChart
-    title Posisi Kompetitif Berdasarkan Autentisitas dan Keahlian
-    x-axis Keahlian Rendah --> Keahlian Tinggi
-    y-axis Tidak Autentik --> Sangat Autentik
-    quadrant-1 Zona Ideal (Unik dan Ahli)
-    quadrant-2 Mudah Ditiru
-    quadrant-3 Komoditas
-    quadrant-4 Bisa Digantikan
-    Kamu (autentik dan ahli): [0.85, 0.90]
-    Pekerja generik: [0.30, 0.20]
-    Spesialis tanpa identitas: [0.75, 0.25]
-    Kreatif tanpa keahlian: [0.20, 0.70]
+graph TB
+    subgraph TINGGI_AUTENTIK["🔼 AUTENTISITAS TINGGI"]
+        Q2["🟡 Kreatif tanpa Keahlian<br/>━━━━━━━━━━━━━━━━━<br/>Mudah ditiru jika<br/>keahlian tidak dibangun<br/><br/>Keahlian: RENDAH"]
+        Q1["🟢 ZONA IDEAL ⭐<br/>━━━━━━━━━━━━━━━━━<br/>Autentik + Ahli =<br/>Tak Terkalahkan<br/>Tidak ada yang bisa<br/>menjadi dirimu<br/><br/>Keahlian: TINGGI"]
+    end
+
+    subgraph RENDAH_AUTENTIK["🔽 AUTENTISITAS RENDAH"]
+        Q3["🔴 Komoditas<br/>━━━━━━━━━━━━━━━━━<br/>Mudah digantikan,<br/>bersaing hanya di harga<br/><br/>Keahlian: RENDAH"]
+        Q4["🟠 Spesialis tanpa Identitas<br/>━━━━━━━━━━━━━━━━━<br/>Ahli tapi bisa<br/>dioutsource / diotomasi<br/><br/>Keahlian: TINGGI"]
+    end
+
+    AXIS_X["◀─── Keahlian Rendah ─────────── Keahlian Tinggi ───▶"]
+    AXIS_X -.-> Q3
+    AXIS_X -.-> Q4
+
+    style Q1 fill:#2d6a4f,color:#fff,font-weight:bold
+    style Q2 fill:#e9c46a,color:#000
+    style Q3 fill:#e63946,color:#fff
+    style Q4 fill:#f4a261,color:#000
+    style TINGGI_AUTENTIK fill:#d8f3dc,color:#000
+    style RENDAH_AUTENTIK fill:#fff0f0,color:#000
+    style AXIS_X fill:#f8f9fa,color:#555
 ```
 
 ---
