@@ -275,14 +275,14 @@ Jika kamu membangun sesuatu yang benar-benar merupakan ekspresi dari siapa dirim
 
 ```mermaid
 quadrantChart
-    title Posisi Kompetitif Berdasarkan Autentisitas & Keahlian
+    title Posisi Kompetitif Berdasarkan Autentisitas dan Keahlian
     x-axis Keahlian Rendah --> Keahlian Tinggi
     y-axis Tidak Autentik --> Sangat Autentik
-    quadrant-1 Zona Ideal (Unik & Ahli)
+    quadrant-1 Zona Ideal (Unik dan Ahli)
     quadrant-2 Mudah Ditiru
     quadrant-3 Komoditas
     quadrant-4 Bisa Digantikan
-    Kamu (autentik + ahli): [0.85, 0.90]
+    Kamu (autentik dan ahli): [0.85, 0.90]
     Pekerja generik: [0.30, 0.20]
     Spesialis tanpa identitas: [0.75, 0.25]
     Kreatif tanpa keahlian: [0.20, 0.70]
