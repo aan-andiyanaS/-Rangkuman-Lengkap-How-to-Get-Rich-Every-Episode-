@@ -282,10 +282,10 @@ quadrantChart
     quadrant-2 Mudah Ditiru
     quadrant-3 Komoditas
     quadrant-4 Bisa Digantikan
-    "Kamu (autentik + ahli)": [0.85, 0.90]
-    "Pekerja generik": [0.30, 0.20]
-    "Spesialis tanpa identitas": [0.75, 0.25]
-    "Kreatif tanpa keahlian": [0.20, 0.70]
+    Kamu (autentik + ahli): [0.85, 0.90]
+    Pekerja generik: [0.30, 0.20]
+    Spesialis tanpa identitas: [0.75, 0.25]
+    Kreatif tanpa keahlian: [0.20, 0.70]
 ```
 
 ---
